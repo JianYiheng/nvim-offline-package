@@ -1,0 +1,149 @@
+# Schemas
+
+- [x] als
+- [ ] angularls
+- [ ] ansiblels
+- [ ] arduino_language_server
+- [ ] asm_lsp
+- [ ] awk_ls
+- [ ] bashls
+- [ ] beancount
+- [ ] bicep
+- [ ] bsl_ls
+- [ ] ccls
+- [ ] clangd
+- [ ] clarity_lsp
+- [ ] clojure_lsp
+- [ ] cmake
+- [x] codeqlls
+- [ ] crystalline
+- [ ] csharp_ls
+- [ ] cssls
+- [ ] cssmodules_ls
+- [ ] cucumber_language_server
+- [x] dartls
+- [x] denols
+- [ ] dhall_lsp_server
+- [ ] diagnosticls
+- [ ] dockerls
+- [ ] dotls
+- [ ] efm
+- [x] elixirls
+- [x] elmls
+- [ ] ember
+- [ ] emmet_ls
+- [ ] erlangls
+- [ ] esbonio
+- [ ] eslint
+- [x] flow
+- [ ] flux_lsp
+- [ ] foam_ls
+- [x] fortls
+- [ ] fsautocomplete
+- [ ] fstar
+- [ ] gdscript
+- [ ] ghcide
+- [ ] golangci_lint_ls
+- [ ] gopls
+- [ ] gradle_ls
+- [ ] grammarly
+- [ ] graphql
+- [ ] groovyls
+- [ ] haxe_language_server
+- [ ] hdl_checker
+- [ ] hhvm
+- [x] hie
+- [ ] hls
+- [ ] hoon_ls
+- [ ] html
+- [ ] idris2_lsp
+- [x] intelephense
+- [x] java_language_server
+- [x] jdtls
+- [ ] jedi_language_server
+- [x] jsonls
+- [ ] jsonnet_ls
+- [x] julials
+- [x] kotlin_language_server
+- [ ] lean3ls
+- [x] leanls
+- [ ] lelwel_ls
+- [ ] lemminx
+- [x] ltex
+- [ ] metals
+- [ ] mint
+- [ ] mm0_ls
+- [x] nickel_ls
+- [x] nimls
+- [ ] ocamlls
+- [ ] ocamllsp
+- [ ] ols
+- [ ] omnisharp
+- [ ] opencl_ls
+- [ ] openscad_ls
+- [ ] pasls
+- [x] perlls
+- [x] perlnavigator
+- [x] perlpls
+- [ ] phpactor
+- [ ] please
+- [ ] powershell_es
+- [ ] prismals
+- [ ] prosemd_lsp
+- [x] psalm
+- [x] puppet
+- [x] purescriptls
+- [x] pylsp
+- [ ] pyre
+- [x] pyright
+- [ ] quick_lint_js
+- [x] r_language_server
+- [ ] racket_langserver
+- [ ] reason_ls
+- [ ] remark_ls
+- [ ] rescriptls
+- [ ] rls
+- [ ] rnix
+- [ ] robotframework_ls
+- [ ] rome
+- [x] rust_analyzer
+- [ ] salt_ls
+- [ ] scry
+- [ ] serve_d
+- [ ] sixtyfps
+- [ ] slint_lsp
+- [ ] solang
+- [x] solargraph
+- [ ] solc
+- [ ] solidity_ls
+- [ ] sorbet
+- [x] sourcekit
+- [ ] sourcery
+- [x] spectral
+- [ ] sqlls
+- [ ] sqls
+- [x] stylelint_lsp
+- [x] sumneko_lua
+- [ ] svelte
+- [ ] svls
+- [ ] tailwindcss
+- [ ] taplo
+- [ ] teal_ls
+- [ ] terraform_lsp
+- [x] terraformls
+- [ ] texlab
+- [ ] tflint
+- [ ] theme_check
+- [ ] tsserver
+- [ ] typeprof
+- [ ] vala_ls
+- [ ] vdmj
+- [ ] verible
+- [ ] vimls
+- [ ] vls
+- [x] volar
+- [x] vuels
+- [x] yamlls
+- [x] zeta_note
+- [ ] zk
+- [ ] zls

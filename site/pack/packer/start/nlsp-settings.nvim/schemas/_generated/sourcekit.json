@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Setting of sourcekit",
+  "properties": {
+    "sourcekit-lsp.inlayHints.enabled": {
+      "default": true,
+      "description": "Render inlay type annotations in the editor. Inlay hints require Swift 5.6 or later.",
+      "type": "boolean"
+    },
+    "sourcekit-lsp.serverArguments": {
+      "default": [],
+      "description": "Arguments to pass to Sourcekit-LSP. Argument keys and values should be provided as separate entries in the array e.g. ['--log-level', 'debug']",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "sourcekit-lsp.serverPath": {
+      "markdownDescription": "The path of the `sourcekit-lsp` executable. The default is to look in the path where `swift` is found.",
+      "type": "string"
+    },
+    "sourcekit-lsp.toolchainPath": {
+      "default": "",
+      "description": "(optional) The path of the Swift toolchain. By default, Sourcekit-LSP uses the toolchain it is installed in.",
+      "type": "string"
+    },
+    "sourcekit-lsp.trace.server": {
+      "default": "off",
+      "description": "Traces the communication between VS Code and the SourceKit-LSP language server.",
+      "enum": [
+        "off",
+        "messages",
+        "verbose"
+      ],
+      "type": "string"
+    },
+    "swift.autoGenerateLaunchConfigurations": {
+      "default": true,
+      "markdownDescription": "When loading a `Package.swift`, auto-generate `launch.json` configurations for running any executables.",
+      "order": 3,
+      "type": "boolean"
+    },
+    "swift.backgroundCompilation": {
+      "default": false,
+      "markdownDescription": "**Experimental**: Run `swift build` in the background whenever a file is saved.",
+      "order": 6,
+      "type": "boolean"
+    },
+    "swift.buildArguments": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "markdownDescription": "Arguments to pass to `swift build`. Keys and values should be provided as separate entries.",
+      "order": 2,
+      "type": "array"
+    },
+    "swift.excludePathsFromPackageDependencies": {
+      "default": [
+        ".git",
+        ".github"
+      ],
+      "description": "A list of paths to exclude from the Package Dependencies view.",
+      "items": {
+        "type": "string"
+      },
+      "order": 5,
+      "type": "array"
+    },
+    "swift.path": {
+      "default": "",
+      "markdownDescription": "The path of the folder containing the Swift executables. The default is to look in **$PATH**.",
+      "order": 1,
+      "type": "string"
+    },
+    "swift.problemMatchCompileErrors": {
+      "default": true,
+      "description": "List compile errors in the Problems View.",
+      "order": 4,
+      "type": "boolean"
+    }
+  }
+}

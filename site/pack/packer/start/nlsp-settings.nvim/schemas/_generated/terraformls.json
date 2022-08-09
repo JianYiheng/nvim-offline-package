@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Setting of terraformls",
+  "properties": {
+    "terraform.codelens.referenceCount": {
+      "default": false,
+      "description": "Display reference counts above top level blocks and attributes.",
+      "scope": "resource",
+      "type": "boolean"
+    }
+  }
+}
